@@ -13,6 +13,7 @@ void motorSetup()
   TCCR0A = 0b10100011;
   TCCR0B = 1;
 }
+//comment
 const uint8_t ADC_BASE = (0<<REFS1)|(1<<REFS0)|(1<<ADLAR);
 const uint8_t ADC_0 = 0;
 const uint8_t ADC_1 =1;
